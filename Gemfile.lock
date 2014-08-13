@@ -1,5 +1,6 @@
-PATH
-  remote: /home/sanjeev/work/opensource/rspec-dmv
+GIT
+  remote: git@github.com:sivagollapalli/rspec-dmv.git
+  revision: 985beba27564ca9eebe186b34b3b999119c195ab
   specs:
     rspec-dmv (0.0.1)
       shoulda-matchers (>= 2.6.1)
