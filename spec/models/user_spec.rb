@@ -1,5 +1,5 @@
 require 'rails_helper'
 
 RSpec.describe User, :type => :model do
-  expect_validation_in(User, {type: :presence, attributes: [:first_name, :last_name, :email]}) 
+  expect_presence_validation_for({attributes: [:first_name, :last_name, :email], message: "Profile info can't be blank" }) 
 end

@@ -26,6 +26,7 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem 'therubyracer'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -34,7 +35,7 @@ end
 
 group :test do
   gem 'rspec-rails'
-  #gem 'rspec-dmv', path: '/home/sanjeev/work/opensource/rspec-dmv' 
+  #gem 'rspec-dmv', path: '/home/siva/work/rspec-dmv' 
   gem 'rspec-dmv', git: 'git@github.com:sivagollapalli/rspec-dmv.git'
 end
 
