@@ -35,8 +35,8 @@ end
 
 group :test do
   gem 'rspec-rails'
-  #gem 'rspec-dmv', path: '/home/siva/work/rspec-dmv' 
-  gem 'rspec-dmv', git: 'git@github.com:sivagollapalli/rspec-dmv.git'
+  gem 'rspec-dmv', path: '/home/siva/work/rspec-dmv' 
+  #gem 'rspec-dmv', git: 'git@github.com:sivagollapalli/rspec-dmv.git'
 end
 
 # Use ActiveModel has_secure_password
